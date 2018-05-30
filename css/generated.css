@@ -1,0 +1,77 @@
+#navigate{
+	height:40em;
+	width:25%;
+	background: #fff;
+    border-radius: .3em;
+}
+.table-title{
+	font-size: 1.125rem;
+	cursor:pointer;
+	padding: .7em 0;
+	border-top: 1px dashed #adadad;
+}
+.table-title:not(.select):hover{
+	background-color: #00d4ca;
+	color: white;
+}
+.table-title.select{
+	background-color: #03A9F4;
+	color: white;
+}
+
+#content{
+	height:36em;
+	width:68%;
+	background: #fff;
+    border-radius: .3em;
+	padding:2em;
+}
+.table-wrap{
+	overflow:auto;
+	width:100%;
+	height:100%;
+	display:none;
+}
+.table{
+	margin: 2em 0;
+	width:100%;
+	border-collapse: collapse;/*边框会合并为一个单一的边框*/
+}
+.table,.table tr th, .table tr td { border:1px solid #aaa; }/*设置边框的*/
+.table tr:nth-child(even){
+	background-color: #f9f9f9;
+}
+.table th{
+	padding: .2em .3em;
+}
+.table td{
+	padding: .3em 1em;
+}
+.table input{
+	line-height: 1.5;
+	border: 1px solid #ccc;
+}
+.line-button{
+	cursor: pointer;
+	color: #333;
+    background-color: white;
+    border: 1px solid #adadad;
+	border-radius: .3em;
+	margin-right:.3em;
+	padding: .3em .6em;
+}
+.line-button:hover{
+	background-color: #e6e6e6;
+}
+.add{
+	font-family: "微软雅黑";
+	cursor:pointer;
+	color: #fff;
+    background-color: #03a9f4;
+    border: none;
+	padding: .5em 1em;
+    border-radius: .4em;
+}
+.add:hover{
+	background-color: #5bc0de;
+}

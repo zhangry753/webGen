@@ -1,0 +1,22 @@
+body{
+	margin: 3em 5em;
+	background: #262626;
+    text-align: center;
+	font-family: "微软雅黑","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif;
+}
+p{
+	display:inline;
+}
+ul{
+	list-style: none;
+}
+input{
+	border: none;
+    border-radius: .2em;
+    padding-left: .3em;
+}
+select{
+	padding: .1em 2em;
+    border: none;
+    border-radius: .2em;
+}

@@ -1,0 +1,74 @@
+#tables .table:nth-child(odd){
+    background-color: #1fbba6;
+}
+#tables .table:nth-child(odd) .table-title:hover{
+	background: #2df8dd;
+}
+#tables .table:nth-child(even){
+    background-color: #e96638;
+}
+#tables .table:nth-child(even) .table-title:hover{
+	background: #ff7646;
+}
+.table{
+	width: 40%;
+    margin: .6em auto;
+    color: white;
+    border-radius: .3em;
+}
+.table-title{
+	min-height:2em;
+	cursor:pointer;
+    padding: .6em;
+}
+.table-content{
+    padding: .5em;
+}
+.table-content input{
+	margin-right:.3em;
+	color: #333;
+    height: 1.3em;
+}
+.table-content .delete-field{
+	color: #E91E63;
+    font-weight: 800;
+}
+.table-content .table-button-little{
+	float:right;
+	cursor:pointer;
+}
+.table-content .add-field{
+    font-weight: 800;
+    color: #808080;
+	padding: .3em;
+    width: 20%;
+    cursor: pointer;
+	background: #fff;
+	border:none;
+    border-radius: .3em;
+}
+#tables .table:nth-child(even) .table-content .add-field:hover{
+	background: #1fbba6;
+	color:white;
+}
+#tables .table:nth-child(odd) .table-content .add-field:hover{
+	background: #e96638;
+	color:white;
+}
+
+.big-button{
+	font-size: 1.125rem;
+    font-weight: 800;
+    color: #808080;
+	margin-bottom:.5em;
+	padding: .5em;
+    width: 40%;
+    cursor: pointer;
+	background: #fff;
+	border:none;
+    border-radius: .2em;
+}
+.big-button:hover{
+	background: #8BC34A;
+	color:white;
+}
